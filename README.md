@@ -16,8 +16,7 @@ For two separate two-week sprints at the tech academy, I worked on a team with o
 My first task was to build the basic app for my craft beer tracking service and get the home page to render. I did this by running ‘python manage.py startapp CraftBeer’, and registering the app within the main project settings.py file. I then created the base and home templates with basic content, and added a function to views.py to render the home page. Finally, I registered my urls within the MainApp and then created urls.py for my app and home page.
 The resulting home page looked like this:
 
-
-
+![home page](https://github.com/sloanehawk/PythonLiveProject/blob/master/homepage.PNG)
 
 ### Create a Model
 My task for this story was to create a model for the collection item I’m tracking (beer) and add the ability to create a new item. 
@@ -320,6 +319,7 @@ And finally I registered the paths in urls.py:
 
 Here is part of the API results page for Laughing Dog Brewery:
 
+![api results page](https://github.com/sloanehawk/PythonLiveProject/blob/master/apiresults.PNG)
 
 
 ### Data Scraping with Beautiful Soup
