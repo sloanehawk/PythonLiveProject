@@ -1,14 +1,14 @@
-# PythonLiveProject
+# Python Live Project
 ## Introduction
 For two separate two-week sprints at the tech academy, I worked on a team with other software development students to create an interactive hobby management website using Python, Django, SQLite, and HTML/CSS. The software we created was designed to help hobbyists keep track of their collections of items, as well as interact with APIs and use DataScraping to get up to date information on things related to those collections and hobbies. During the first two-week sprint I created my basic app, which includes a database collection manager for craft beers and CRUD functionality. In the second sprint, I created a Restful API interface that allows users to select a brewery and get an up-to-date list of all the beers for that brewery with related information. I also added a news page that uses Beautiful Soup and Data Scraping to pull the latest news articles from https://www.brewbound.com/. Below are descriptions of the stories I worked on along with code snippets and screenshots.
 ## Stories
-### Build the Basic App
-### Create a Model
-### Index Page
-### Details Page
-### Edit and Delete Functions
-### API Service
-### Data Scraping with Beautiful Soup
+* [Build the Basic App](#build-the-basic-app)
+* [Create a Model](#create-a-model)
+* [Index Page](#index-page)
+* [Details Page](#details-page)
+* [Edit and Delete Functions](#edit-and-delete-functions)
+* [API Service](#api-service)
+* [Data Scraping with Beautiful Soup](#data-scraping-with-beautiful-soup)
 
 
 
@@ -322,7 +322,7 @@ Here is part of the API results page for Laughing Dog Brewery:
 
 
 
-### Data Scraping
+### Data Scraping with Beautiful Soup
 I chose to scrape data from https://www.brewbound.com/category/news using Beautiful Soup. 
 
 Here is the function for data scraping that I added to views.py which includes the get request, and parsing through the HTML:
