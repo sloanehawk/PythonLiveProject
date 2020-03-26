@@ -13,8 +13,8 @@ For two separate two-week sprints at the tech academy, I worked on a team with o
 
 
 ### Build the Basic App
-My first task was to build the basic app for my craft beer tracking service and get the home page to render. I did this by running ‘python manage.py startapp CraftBeer’, and registering the app within the main project settings.py file. I then created the base and home templates with basic content, and added a function to views.py to render the home page. Finally, I registered my urls within the MainApp and then created urls.py for my app and home page.
-The resulting home page looked like this:
+My first task was to build the basic app for my craft beer tracking service and get the home page to render.
+The basic home page looked like this:
 
 ![home page](https://github.com/sloanehawk/PythonLiveProject/blob/master/homepage.PNG)
 
